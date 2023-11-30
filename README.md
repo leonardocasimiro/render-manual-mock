@@ -3,7 +3,10 @@
 ## Introducción
 
 > Para esta práctica se sube a render la rest API de la practica anterior, la 4.
-Para ello hemos hecho un repositorio "render-manual-mock". A pesar del nombre, modificando una variable de entorno podemos pasar de datos mock a datos en mongo Atlas
+Para ello hemos hecho un repositorio "render-manual-mock". En este caso, modificando una variable de entorno, podemos pasar de datos mock a datos en mongo Atlas.
+
+Mongo Atlas:
+
 
 Repo:
 - https://github.com/leonardocasimiro/render-manual-mock.
@@ -34,3 +37,20 @@ Este deploy consiste en:
 - REaliza un bulit con el comando que le hayamos pasado.
 - y arranca la app con npm start
 
+## end Points
+Tiene los siguientes end points:
+
+Get para consultar todos las casas
+
+https://render-manual-mock.onrender.com/api/houses
+
+Get para consultar por id
+
+https://render-manual-mock.onrender.com/api/houses/65624450bec208d2830a55dc
+
+Post para añadir una casa. Se puede usar postman agregando la casa en el body con   formatoJSON
+
+http://localhost:3000/api/houses/
+
+son los end points del modulo 4. Los no GET necesitamos postman …..
+![Alt text](./img/patch.JPG)
