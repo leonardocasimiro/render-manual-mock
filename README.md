@@ -9,7 +9,8 @@ El enlace de render
 - https://render-manual-mock.onrender.com
 
 Si se chequea el enlace, este tirará de los datos subidos en Mongo Atlas.
-(./img/render-1.png)
+![captura render...](./img/render-a.png)
+
 ## Introducción
 
 
